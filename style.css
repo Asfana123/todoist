@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+li{
+    display:list-item;
+}
+
+ul{
+ margin-left: 300px;
+
+}
+li{
+    padding-left:30px;
+}
+h1{
+   margin-top: 150px;
+}
+.navbar-brand{
+    font-size:xx-large;
+}
+.text-center{
+    text-align: center;
+}
+.para{
+width:50%;
+display: flex;
+}
+.m{
+    margin-top: 150px;
+}
+    h2{
+        margin-top:200px;
+        margin-right:150px;
+    }
+
