@@ -2,6 +2,9 @@
     margin:0;
     padding: 0;
 }
+body{
+    overflow-x: hidden;
+}
 
 
 li{
@@ -31,8 +34,57 @@ display: flex;
 .m{
     margin-top: 150px;
 }
-    h2{
-        margin-top:200px;
-        margin-right:150px;
+.padding{
+    padding-top: 50px;
+}
+.button{
+    width:150px;
+    height:50px;
+    border-radius: 4px;
+    background-color: rgb(252, 240, 246);
+    border: none;
+    text-align: left;
+}
+.icons.svg:hover{
+    background-color: rgb(178, 186, 184);
+}
+
+.button:hover{
+
+background-color: rgb(178, 186, 184);
+}
+.login:hover{
+  width:100px;
+  height:50px;
+  border-radius: 4px;
+  background-color:rgb(178, 186, 184);
+  text-align: center;
+} 
+.footer{
+    text-decoration: none;
+
+
+}
+.footer:hover{
+    text-decoration: underline;
+}
+
+@media screen and (max-width:700px){
+    .image{
+        display: none;
     }
+    .button{
+        width:300px ;
+
+    }
+    .icons{
+        display:none;
+    }
+    .para{
+        text-align:center ;
+    }
+}
+    
+    
+    
 
